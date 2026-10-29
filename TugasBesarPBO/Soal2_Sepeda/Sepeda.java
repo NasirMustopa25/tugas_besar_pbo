@@ -1,5 +1,3 @@
-// Soal 2 - Rental Sepeda
-// Konsep: Encapsulation (private), this pada constructor, method non-void
 public class Sepeda {
     private String kodeSepeda;
     private String jenisSepeda;
@@ -13,12 +11,10 @@ public class Sepeda {
         this.hargaPerJam = hargaPerJam;
     }
 
-    // Method non-void: mengembalikan hasil kalkulasi
     public double hitungBiaya() {
         return lamaSewa * hargaPerJam;
     }
 
-    // Method void: menampilkan data
     public void tampilData() {
         System.out.println("Kode Sepeda  : " + kodeSepeda);
         System.out.println("Jenis Sepeda : " + jenisSepeda);
