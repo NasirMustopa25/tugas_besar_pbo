@@ -1,5 +1,3 @@
-// Soal 4 - Sistem Data Pemeriksaan Klinik
-// Konsep: private attribute, this pada constructor, method kalkulasi
 public class Pemeriksaan {
     private String noPemeriksaan;
     private String namaPasien;
@@ -14,7 +12,6 @@ public class Pemeriksaan {
         this.biayaPemeriksaan = biayaPemeriksaan;
     }
 
-    // Mengembalikan biaya agar bisa dijumlahkan di Main
     public double hitungTotal() {
         return biayaPemeriksaan;
     }
