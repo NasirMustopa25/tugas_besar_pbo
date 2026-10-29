@@ -7,7 +7,6 @@ public class Main {
         s1.tampilData();
         s2.tampilData();
 
-        // Nilai return dipakai langsung
         double total = s1.hitungBiaya() + s2.hitungBiaya();
         System.out.println("Total pendapatan rental: Rp" + total);
     }
