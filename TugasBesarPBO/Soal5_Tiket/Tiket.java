@@ -1,5 +1,3 @@
-// Soal 5 - Tiket Bioskop
-// Integrasi: class & object, private, this, void vs non-void, ArrayList, looping
 public class Tiket {
     private String kodeTiket;
     private String namaFilm;
@@ -16,12 +14,10 @@ public class Tiket {
         this.jumlahTiket = jumlahTiket;
     }
 
-    // Non-void: total = hargaTiket x jumlahTiket
     public double hitungTotal() {
         return hargaTiket * jumlahTiket;
     }
 
-    // Void: mencetak struk dengan format rapi
     public void tampilData() {
         System.out.println("========================================");
         System.out.println("        DATA PEMESANAN TIKET");
